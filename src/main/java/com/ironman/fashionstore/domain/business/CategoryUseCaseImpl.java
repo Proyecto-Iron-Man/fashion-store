@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 @Service
 public class CategoryUseCaseImpl implements CategoryUseCase {
 
-    private CategoryOutputPort categoryOutputPort;
+    private final CategoryOutputPort categoryOutputPort;
 
 
     @Override
